@@ -1,0 +1,81 @@
+/* Background */
+.stApp{
+    background: linear-gradient(135deg,#0B0F19,#111827);
+    color:white;
+}
+
+/* Main title */
+.main-title{
+    text-align:center;
+    font-size:55px;
+    font-weight:bold;
+    color:white;
+    margin-bottom:5px;
+}
+
+/* Subtitle */
+.sub-title{
+    text-align:center;
+    color:#9CA3AF;
+    font-size:18px;
+    margin-bottom:30px;
+}
+
+/* Glassmorphism containers */
+div[data-testid="stChatMessage"]{
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(15px);
+    border:1px solid rgba(255,255,255,0.1);
+    border-radius:20px;
+    padding:15px;
+    margin-bottom:15px;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"]{
+    background:#0B0F19;
+}
+
+/* Input box */
+div[data-testid="stChatInput"]{
+    border-radius:20px;
+}
+
+/* Footer */
+.footer{
+    text-align:center;
+    color:#9CA3AF;
+    margin-top:40px;
+    padding:20px;
+}
+
+/* Header */
+.header{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+/* Logo */
+.logo{
+    width:90px;
+    display:block;
+    margin:auto;
+}
+
+/* Tool cards */
+.tool-box{
+    background: rgba(255,255,255,0.05);
+    border-radius:15px;
+    padding:15px;
+    margin-top:10px;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar{
+    width:8px;
+}
+
+::-webkit-scrollbar-thumb{
+    background:#374151;
+    border-radius:10px;
+}
